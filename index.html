@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="section">
+    <div class="step1">
+        
+        <h1>Step 1: Your details</h1>
+        <div class="name" >
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="First and last name" autocomplete="off">
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@domain.com" autocomplete="off">
+        </div>
+        <div class="phone">
+            <label for="phone">Phone</label>
+            <input type="telno" id="phone" placeholder="Eg. +8801793515372">
+        </div>
+    
+    </div>
+    <div class="step2">
+        <h1>Step 2: Delivery Address</h1>
+        <div class="adress" >
+            <label for="adress">Address</label>
+            <input type="text" id="adress" >
+        </div>
+        <div class="postcode">
+            <label for="postcode">Postcode</label>
+            <input type="number" id="postcode">
+        </div>
+        <div class="country">
+            <label for="country">Country</label>
+            <select name="country" id="">
+                <option value="">Bangladesh</option>
+                <option value="">United States of America</option>
+                <option value="">Australia</option>
+                <option value="">Germany</option>
+            </select>
+            
+        </div>
+    </div>
+    <div class="step3">
+        <h1>Step 3: Card details</h1>
+        <div class="card-type" >
+            <label for="card">Card Type</label><br>
+            <input type="radio" name="card" value="1"><i class="fab fa-cc-visa"></i>VISA
+            <input type="radio" name="card" value="2"><i class="fab fa-cc-amex"></i>AmEx
+            <input type="radio" name="card" value="3"><i class="fab fa-cc-mastercard"></i>Mastercard
+        </div>
+        <div class="card-number">
+            <label for="cardno">Card Number</label>
+            <input type="number" id="cardno">
+
+        </div>
+        <div class="security-code">
+            <label for="security">Security Number</label>
+            <input type="number" id="security">
+
+        </div>
+        <div class="name-card">
+            <label for="cardname">Name on card</label>
+            <input type="text" id="cardname" placeholder="Exact name as on the card" autocomplete="off">
+        </div>
+    </div>
+  </div>
+</body>
+</html>

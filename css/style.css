@@ -1,0 +1,217 @@
+.step1{
+
+    height: 319px;
+    
+    width: 100%;
+    
+    background: #9cbc2c;
+    
+    }
+            .name{
+            
+    height: 25%;
+            
+    width: 90%;
+            
+    background: #b9cf6a;
+            
+    margin: auto;
+            
+    margin-bottom: 5px;
+            
+    border: 4px solid white;
+            }
+            .email{
+            
+    height: 18%;
+            
+    width: 90%;
+            
+    background: #b9cf6a;
+            
+    margin: auto;
+            
+    margin-bottom: 5px;
+            
+    border: 4px solid white;
+            }
+            .phone{
+                
+    height: 18%;
+                
+    width: 90%;
+                
+    background: #b9cf6a;
+                
+    margin: auto;
+                
+    border: 4px solid white;
+            }
+            h1{
+            margin: 0;
+            padding-left: 77px;
+            padding-bottom: 13px;
+            padding-top: 13px;
+            }
+            .step2{
+        
+    height: 410px;
+        
+    background: #9cbc2c;
+        }
+            .adress{
+        
+        height: 40%;
+        
+        background: #b9cf6a;
+        
+        width: 90%;
+        
+        margin: auto;
+        
+        margin-bottom: 5px;
+        border: 4px solid white;
+        
+        }
+            .postcode{
+        
+    background: #b9cf6a;
+        
+    height: 15%;
+        
+    width: 90%;
+        
+    margin: auto;
+        
+    margin-bottom: 5px;
+        
+    border: 4px solid white;
+        }
+            .country{
+        
+    background: #b9cf6a;
+        
+    height: 15%;
+        
+    width: 90%;
+        
+    margin: auto;
+        
+    border: 4px solid white;
+        }
+            .step3{
+        
+    background:#9cbc2c;
+        
+    height: 382px;
+        }
+            .card-type{
+        
+    background: #b9cf6a;
+        
+    height: 23%;
+        
+    width: 90%;
+        
+    margin: auto;
+        
+    margin-bottom: 5px;
+        
+    border: 4px solid white;
+        }
+            .card-number{
+        
+    background: #b9cf6a;
+        
+    height: 16%;
+        
+    width: 90%;
+        
+    margin: auto;
+        
+    margin-bottom: 5px;
+        
+    border: 4px solid white;
+        }
+            .security-code{
+        
+    background: #b9cf6a;
+        
+    height: 16%;
+        
+    width: 90%;
+        
+    margin: auto;
+        
+    margin-bottom: 5px;
+        
+    border: 4px solid white;
+        }
+            .name-card{
+        
+    background: #b9cf6a;
+        
+    height: 16%;
+        
+    width: 90%;
+        
+    margin: auto;
+        
+    margin-bottom: 5px;
+        
+    border: 4px solid white;
+        }
+            .section{
+            width: 80%;
+            margin: auto;
+            }
+
+label{
+
+font-size: 21px;
+
+margin: 49px;
+}
+
+input{
+    
+height: 31px;
+    
+width: 241px;
+    
+margin-top: 9px;
+    
+margin-left: 145px;
+}
+
+.country select{
+
+height: 31px;
+
+width: 241px;
+
+margin-top: 15px;
+
+margin-left: 149px;
+}
+.adress input{
+
+height: 124px;
+
+width: 323px;
+}
+.card-type input{
+
+margin-right: -40px;
+
+height: 29px;
+}
+
+
+.security-code input{
+    margin-left: 140px;
+}
+.card-type label{margin: auto;margin-left: 54px;}
+.i{
+    
+}
